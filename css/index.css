@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color:rgb(46, 35, 35);
+}
+canvas{
+    background:#cc99cc;
+    margin:10px auto 0;
+    padding:20px auto;
+    display:block;
+}
+.title{
+    width:480px;
+    margin:20px auto 0;
+    color:blue;
+    font-size:30px;
+    text-align:center;
+    background:#ccffcc;
+}
+.start,.pause{
+    width:480px;
+    position:absolute;
+    left:50%;
+    bottom:60px;
+    margin-left:-240px;
+    color:blue;
+    font-size:30px;
+    text-align:center;
+    background:#ccffcc;
+}
+.pause{
+    bottom:10px
+}
